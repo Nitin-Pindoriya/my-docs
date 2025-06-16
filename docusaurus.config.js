@@ -3,7 +3,7 @@ const config = {
   title: 'eShop',
   tagline: 'Your one-stop Flutter + Web solution',
   url: 'https://Nitin-Pindoriya.github.io',
-  baseUrl: '/',
+  baseUrl: '/my-docs/',
   organizationName: 'Nitin-Pindoriya',
   projectName: 'my-docs',
   favicon: 'img/favicon.ico',
