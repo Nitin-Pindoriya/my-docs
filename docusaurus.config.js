@@ -2,9 +2,9 @@
 const config = {
   title: 'eShop',
   tagline: 'Your one-stop Flutter + Web solution',
-  url: 'https://nitinpindoriya.github.io',
-  baseUrl: '/my-docs/',
-  organizationName: 'nitinpindoriya',
+  url: 'https://Nitin-Pindoriya.github.io',
+  baseUrl: '/',
+  organizationName: 'Nitin-Pindoriya',
   projectName: 'my-docs',
   favicon: 'img/favicon.ico',
   i18n: { defaultLocale: 'en', locales: ['en'] },
@@ -16,7 +16,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/nitinpindoriya/my-docs/edit/main/',
+          editUrl: 'https://github.com/Nitin-Pindoriya/my-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
