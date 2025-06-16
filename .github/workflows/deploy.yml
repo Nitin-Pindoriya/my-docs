@@ -31,4 +31,9 @@ jobs:
           git checkout -b site
           git add -f build
           git commit -m "Deploy website"
-          git push origin site --force 
+          git push origin site --force
+          
+      - name: Create deployment URL
+        run: |
+          echo "Your site is deployed at: https://raw.githack.com/Nitin-Pindoriya/my-docs/site/build/index.html"
+          echo "Remove 'raw.' from the URL to view the site" 
