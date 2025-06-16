@@ -35,5 +35,5 @@ jobs:
           
       - name: Create deployment URL
         run: |
-          echo "Your site is deployed at: https://raw.githack.com/Nitin-Pindoriya/my-docs/site/build/index.html"
-          echo "Remove 'raw.' from the URL to view the site" 
+          echo "Your site is deployed at: https://raw.githubusercontent.com/Nitin-Pindoriya/my-docs/site/build/index.html"
+          echo "To view the site, use: https://htmlpreview.github.io/?https://raw.githubusercontent.com/Nitin-Pindoriya/my-docs/site/build/index.html" 
