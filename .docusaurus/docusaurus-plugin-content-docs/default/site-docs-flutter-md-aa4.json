@@ -1,0 +1,20 @@
+{
+  "id": "flutter",
+  "title": "eShop - Flutter E-commerce Full App",
+  "description": "Click here to find video doc",
+  "source": "@site/docs/flutter.md",
+  "sourceDirName": ".",
+  "slug": "/flutter",
+  "permalink": "/docs/flutter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Nitin-Pindoriya/my-docs/edit/main/docs/flutter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Web (Frontend and Backend)",
+    "permalink": "/docs/web"
+  }
+}

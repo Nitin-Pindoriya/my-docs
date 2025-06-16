@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Getting Started with eShop",
+  "description": "Welcome to the eShop documentation! This guide will help you get started with setting up and configuring your eShop platform.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Nitin-Pindoriya/my-docs/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Web (Frontend and Backend)",
+    "permalink": "/docs/web"
+  }
+}

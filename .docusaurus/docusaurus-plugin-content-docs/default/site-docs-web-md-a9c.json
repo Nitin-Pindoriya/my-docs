@@ -1,0 +1,27 @@
+{
+  "id": "web",
+  "title": "Web (Frontend and Backend)",
+  "description": "This is the Web (Frontend and Backend) section. Here you can add content related to your web platform, covering the frontend and backend technologies, architecture, frameworks, and anything else related to your web solution.",
+  "source": "@site/docs/web.md",
+  "sourceDirName": ".",
+  "slug": "/web",
+  "permalink": "/docs/web",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Nitin-Pindoriya/my-docs/edit/main/docs/web.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started with eShop",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "eShop - Flutter E-commerce Full App",
+    "permalink": "/docs/flutter"
+  }
+}
