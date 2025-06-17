@@ -74,6 +74,7 @@ const sidebars = {
         'flutter/contact-us',
       ],
     },
+    'changelog',
   ],
 };
 
