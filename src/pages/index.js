@@ -1,5 +1,5 @@
 // File: src/pages/index.js
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -7,19 +7,6 @@ import '../css/custom.css';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-  const [hexagons, setHexagons] = useState([]);
-
-  useEffect(() => {
-    const generated = Array.from({ length: 30 }).map((_, i) => {
-      const style = {
-        left: `${Math.random() * 100}%`,
-        animationDuration: `${8 + Math.random() * 4}s`,
-        animationDelay: `${Math.random() * 5}s`,
-      };
-      return <div key={i} className="hexagon" style={style} />;
-    });
-    setHexagons(generated);
-  }, []);
 
   return (
     <Layout
@@ -27,9 +14,6 @@ export default function Home() {
       description="eShop platform homepage"
     >
       <header className="hero hero--primary heroBanner">
-        <div className="hexagonal-background">
-          {hexagons}
-        </div>
         <div className="centered-content">
           <h1 className="hero__title">eShop Single Vendor Documentation</h1>
           <p className="hero__subtitle">
