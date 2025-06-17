@@ -68,13 +68,10 @@ const sidebars = {
         'flutter/how-to-generate-release-apks',
         'flutter/how-to-solve-data-safety-issue-in-play-store',
         'flutter/steps-to-publish-ios-app-to-app-store',
-        'flutter/need-support',
-        'flutter/your-feedback',
-        'flutter/your-ratings',
-        'flutter/contact-us',
       ],
     },
     'changelog',
+    'support/index',
   ],
 };
 
