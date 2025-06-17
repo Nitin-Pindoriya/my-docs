@@ -16,9 +16,8 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Nitin-Pindoriya/my-docs/edit/main/',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
