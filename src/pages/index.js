@@ -1,5 +1,5 @@
 // File: src/pages/index.js
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,7 +8,6 @@ import '../css/custom.css';
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const [hexagons, setHexagons] = useState([]);
-  const [cursorTrail, setCursorTrail] = useState([]);
 
   useEffect(() => {
     const generated = Array.from({ length: 30 }).map((_, i) => {
@@ -22,21 +21,6 @@ export default function Home() {
     setHexagons(generated);
   }, []);
 
-  const handleMouseMove = useCallback((e) => {
-    setCursorTrail(prevTrail => {
-      const newTrail = [...prevTrail, { x: e.clientX, y: e.clientY, id: Date.now() }];
-      if (newTrail.length > 8) {
-        newTrail.shift();
-      }
-      return newTrail;
-    });
-  }, []);
-
-  useEffect(() => {
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [handleMouseMove]);
-
   return (
     <Layout
       title={`${siteConfig.title} - Buy Everything!`}
@@ -45,19 +29,6 @@ export default function Home() {
       <header className="hero hero--primary heroBanner">
         <div className="hexagonal-background">
           {hexagons}
-        </div>
-        {/* Cursor trail */}
-        <div className="cursor-trail">
-          {cursorTrail.map((pos) => (
-            <div
-              key={pos.id}
-              className="cursor-trail-item"
-              style={{
-                left: pos.x,
-                top: pos.y,
-              }}
-            />
-          ))}
         </div>
         <div className="centered-content">
           <h1 className="hero__title">eShop Single Vendor Documentation</h1>

@@ -85,7 +85,6 @@
   transition: all 0.3s ease;
   overflow: hidden;
   border: none;
-  cursor: pointer;
 }
 
 .button--primary {
@@ -309,45 +308,6 @@
 
 [data-theme='dark'] .feature__links a:hover {
   color: #9d6ff7;
-}
-
-/* Cursor Trail Styles */
-.cursor-trail {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 9999;
-}
-
-.cursor-trail-item {
-  position: fixed;
-  transform: translate(-50%, -50%);
-  font-size: 1.2rem;
-  pointer-events: none;
-  animation: fadeOut 0.5s ease-out forwards;
-  opacity: 0.8;
-  text-shadow: 0 0 5px rgba(97, 51, 189, 0.3);
-}
-
-.cursor-trail-item::before {
-  content: '🛍️';
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 0.8;
-    transform: translate(-50%, -50%) scale(1);
-  }
-
-  100% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.5);
-  }
 }
 
 /* Main cursor element */
