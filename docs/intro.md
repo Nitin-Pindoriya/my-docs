@@ -37,8 +37,7 @@ eShop is a comprehensive e-commerce solution that includes:
 ## Next Steps
 
 - [Web Platform Documentation](/docs/web)
-- [Flutter App Documentation](/docs/flutter)
-- [General Settings](/docs/GeneralSettings/index)
+- [Flutter App Documentation](/docs/flutter/flutter-intro.md)
 
 ## Support
 
