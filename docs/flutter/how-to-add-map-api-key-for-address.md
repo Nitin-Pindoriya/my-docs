@@ -31,7 +31,7 @@ How to Add Map API key for Address
 
 8. You have to setup those above API keys for both Platform:
 
-**Android Setup:**
+### Android Setup
 - Next, open android ‣ app ‣ src ‣ main ‣ AndroidManifest.xml and paste the Google Maps meta data tag into your application tag before the activity tag, placing the API key you copied before to replace YOUR_API_KEY_HERE.
 ```xml
 <meta-data 
@@ -42,7 +42,7 @@ How to Add Map API key for Address
 
 ![eShop](/img/mapAPI7.png)
 
-**iOS Setup:**
+### iOS Setup
 - Next, open the ios ‣ Runner ‣ AppDelegate.swift file and paste the following code as shown in image.
 ```swift
 GMSServices.provideAPIKey("YOUR_API_KEY_HERE")
