@@ -2073,7 +2073,6 @@ input[type="checkbox"]+label,
 input[type="radio"]+label {
 	text-decoration: none;
 	color: #888;
-	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
 	font-weight: 400;
@@ -2519,7 +2518,6 @@ input[type="button"],
 	border-radius: 5px;
 	border: 0;
 	color: #ffffff !important;
-	cursor: pointer;
 	display: inline-block;
 	font-weight: 700;
 	height: 2.75em;
