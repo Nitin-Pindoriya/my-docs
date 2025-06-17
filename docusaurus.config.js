@@ -24,12 +24,27 @@ const config = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
   themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
     navbar: {
       title: 'eShop',
       items: [
         { to: '/docs/web', label: 'Web', position: 'left' },
         { to: '/docs/intro', label: 'Flutter App', position: 'left' },
+        {
+          type: 'search',
+          position: 'right',
+        },
       ],
     },
   }),
