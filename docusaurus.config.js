@@ -48,14 +48,13 @@ const config = {
       },
     },
     navbar: {
-      title: 'eShop Multivendor Doc',
+      title: 'eShop Single Vendor',
       logo: {
         alt: 'eShop Logo',
         src: 'img/eshop-logo.png',
       },
       items: [
-        { to: '/docs/web', label: 'Web', position: 'left' },
-        { to: '/docs/intro', label: 'Flutter App', position: 'left' },
+        { to: '/docs/intro', label: 'Documentation', position: 'left' },
         {
           type: 'search',
           position: 'right',
