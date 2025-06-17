@@ -17,6 +17,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/Nitin-Pindoriya/my-docs/edit/main/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -36,8 +38,22 @@ const config = {
     ],
   ],
   themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
+    toc: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 3,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+        hideable: true,
+      },
+    },
     navbar: {
-      title: 'eShop',
+      title: 'eShop Multivendor Doc',
+      logo: {
+        alt: 'eShop Logo',
+        src: 'img/eshop-logo.png',
+      },
       items: [
         { to: '/docs/web', label: 'Web', position: 'left' },
         { to: '/docs/intro', label: 'Flutter App', position: 'left' },
