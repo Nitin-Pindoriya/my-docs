@@ -21,11 +21,8 @@ export default function Home() {
             Learn how to set up, customize, and deploy your e-commerce solution.
           </p>
           <div className="buttons">
-            <Link className="button button--primary button--lg" to="/docs/web">
-              Website Setup
-            </Link>
-            <Link className="button button--secondary button--lg" to="/docs/flutter">
-              Flutter Application
+            <Link className="button button--primary button--lg" to="/docs/intro">
+              View Documentation
             </Link>
           </div>
           <section className="features">
