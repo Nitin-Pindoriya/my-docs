@@ -15,12 +15,7 @@
  @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
  */
 const sidebars = {
-  docs: [
-    {
-      type: 'category',
-      label: 'Getting Started',
-      items: ['intro'],
-    },
+  docs: ['intro',
     {
       type: 'category',
       label: 'Web Platform',

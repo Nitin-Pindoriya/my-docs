@@ -1,12 +1,8 @@
----
-sidebar_position: 1
----
-
-# Getting Started with eShop
+# Introduction
 
 Welcome to the eShop documentation! This guide will help you get started with setting up and configuring your eShop platform.
 
-## Overview
+## Overviews
 
 eShop is a comprehensive e-commerce solution that includes:
 - Web platform (Frontend & Backend)
