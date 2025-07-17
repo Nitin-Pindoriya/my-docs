@@ -6,7 +6,7 @@ Flutter Doctor Output Error
 
 1. If you have run flutter doctor and in flutter doctor if you see below error like licence status unknown.
 
-   ![eShop](/img/upgrade1.png)
+   ![eShop](/img/flutter/upgrade1.png)
 
 2. Open **Visual Studio Code**.
    - Open a new terminal in VS Code (`Terminal > New Terminal`).

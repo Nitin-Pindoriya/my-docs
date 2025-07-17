@@ -14,13 +14,13 @@ title: Installation
         <p>Sample image</p>
     </div>
     <ol>
-        <li><span style="color:blue;">Database Hostname</span> : Enter the hostname.</li>
-        <li><span style="color:blue;">Database Username</span> : Enter the username that has access to the database.</li>
-        <li><span style="color:blue;">Database Password</span> : Enter the password.</li>
-        <li><span style="color:blue;">Database Name</span> : Enter the name of the database.</li>
-        <li><span style="color:blue;">Admin Mobile</span> : Enter the mobile number **(The mobile number will be used further for user authentication)**</li>
-        <li><span style="color:blue;">Admin Password</span> : Enter the password **(The password will be used further for user authentication)**</li>
-        <li><span style="color:blue;">App Url</span> : Enter your app / domain URL. Make sure you enter the complete URL with the correct protocol (e.g., http:// or https://).</li>
+        <li><span style={{ color: 'blue' }}>Database Hostname</span> : Enter the hostname.</li>
+        <li><span style={{ color: 'blue' }}>Database Username</span> : Enter the username that has access to the database.</li>
+        <li><span style={{ color: 'blue' }}>Database Password</span> : Enter the password.</li>
+        <li><span style={{ color: 'blue' }}>Database Name</span> : Enter the name of the database.</li>
+        <li><span style={{ color: 'blue' }}>Admin Mobile</span> : Enter the mobile number **(The mobile number will be used further for user authentication)**</li>
+        <li><span style={{ color: 'blue' }}>Admin Password</span> : Enter the password **(The password will be used further for user authentication)**</li>
+        <li><span style={{ color: 'blue' }}>App Url</span> : Enter your app / domain URL. Make sure you enter the complete URL with the correct protocol (e.g., http:// or https://).</li>
     </ol>
 
-Now click <span style="color:blue;">Install</span>. That's it! You are ready to run your first e-commerce App: **https://eshop.com/** 
+Now click <span style={{ color: 'blue' }}>Install</span>. That's it! You are ready to run your first e-commerce App: **https://eshop.com/** 

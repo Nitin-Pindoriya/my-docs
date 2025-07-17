@@ -8,4 +8,4 @@ Steps to Authenticate firebase using Google
 2. Go to Sign-in method in Authentication.
 3. Go to the Google and enable the google sign_in automatically.
 
-![eShop](/img/google_fcm.png) 
+![eShop](/img/flutter/google_fcm.png) 

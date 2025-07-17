@@ -23,12 +23,12 @@ You can easily change your Flutter app's package name using the `change_app_pack
 
 1. Open a terminal in your project directory.
    
-   ![eShop](/img/packagename.png)
+   ![eShop](/img/flutter/packagename.png)
 2. Run the appropriate command above, replacing `com.new.package.name` with your desired package name.
 3. The tool will update all necessary files for the selected platform(s).
 4. After the process completes, open the `lib/settings.dart` file and manually update the package name there, as this file is not automatically updated by the tool. All other necessary changes are handled by the package.
    
-   ![eShop](/img/packagename1.png)
+   ![eShop](/img/flutter/packagename1.png)
 5. Review your project to ensure all changes are correct. Then, run `flutter clean` and `flutter pub get` to refresh your project.
 
 **Important Note:** Replace `com.new.package.name` with your desired package name (e.g., `com.yourcompany.appname`). The package name should follow the reverse domain name notation.

@@ -15,14 +15,14 @@ How to generate release apks
      keytool -genkey -v -keystore c:\Users\USER_NAME\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
      ```
 
-![eShop](/img/modifyPath.png)
-![eShop](/img/remeberPassword.png)
-![eShop](/img/success.png)
+![eShop](/img/flutter/modifyPath.png)
+![eShop](/img/flutter/remeberPassword.png)
+![eShop](/img/flutter/success.png)
 
 2. Reference the keystore from the app  
    Create a file named [project]/android/key.properties that contains a reference to your keystore:
 
-![eShop](/img/createfile.png)
+![eShop](/img/flutter/createfile.png)
 
 3. Copy below code, Paste in to key.propertirs file and change as per shown in image.
    ```
@@ -32,7 +32,7 @@ How to generate release apks
    storeFile=location of the key store file, such as /Users/user name/upload-keystore.jks
    ```
 
-![eShop](/img/setPath.png)
+![eShop](/img/flutter/setPath.png)
 
 4. Configure signing in gradle  
    Configure gradle to use your upload key when building your app in release mode by editing the [project]/android/app/build.gradle file.
@@ -45,7 +45,7 @@ How to generate release apks
      }
      ```
 
-![eShop](/img/codeBlock1.png)
+![eShop](/img/flutter/codeBlock1.png)
 
    - Find the buildTypes block, and replace it with the following signing configuration info:
      ```
@@ -64,10 +64,10 @@ How to generate release apks
      }
      ```
 
-![eShop](/img/codeBlock2.png)
+![eShop](/img/flutter/codeBlock2.png)
 
 5. Run following commands in Terminal as per your need:
    - To generate an APK: `flutter build apk`
    - To generate an App Bundle: `flutter build appbundle`
 
-![eShop](/img/generateAPK.png) 
+![eShop](/img/flutter/generateAPK.png) 

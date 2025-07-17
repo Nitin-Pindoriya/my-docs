@@ -6,7 +6,7 @@ How to Change language String value
 
 1. Go to lib > Language > go to your language code. Here you can change any string as you want
 
-![eShop](/img/lan2.png)
+![eShop](/img/flutter/lan2.png)
 
 2. If you want to update this string for all supported languages, repeat the process in each language's JSON file, ensuring the new value is consistent across all files.
 

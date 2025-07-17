@@ -13,7 +13,7 @@ For ios your need to perform below given step:
 5. Enable Push Notifications.
 6. Check Remote Notifications and Background Fetch from Enabling Background Modes.
 
-![eShop](/img/1.png)
+![eShop](/img/flutter/1.png)
 
 7. APNs (Apple's Push Notification service) currently supports two types of connections: token-based (.p8) and certificate-based (.p12). You can follow either one of them
 
@@ -23,22 +23,22 @@ For ios your need to perform below given step:
 9. Navigate to Certificates, IDs & Profiles > Identifiers > App IDs and click the App ID associated with your app.
 10. On the screen for your App ID, check Capabilities > Push Notifications.
 
-![eShop](/img/2.png)
-![eShop](/img/3.png)
+![eShop](/img/flutter/2.png)
+![eShop](/img/flutter/3.png)
 
 11. Select App ID in next page & click continue.
 12. And then create Development SSL Certificate & Production SSL Certificate by adding CSR certificate. Follow Apple's [Create a certificate signing request instructions](https://help.apple.com/developer-account/).
 13. Navigate to Certificates, IDs & Profiles > Keys Section and add a Universal key for Notifications, which you can use for more than one apps as well.
 
-![eShop](/img/4.png)
+![eShop](/img/flutter/4.png)
 
 14. Just save and Download & keep it safe, as it will be downloaded only once.
 
-![eShop](/img/5.png)
+![eShop](/img/flutter/5.png)
 
 15. Then go to Firebase and add this .p8 file along with Your Key ID and Team ID.
 
-![eShop](/img/6.png)
+![eShop](/img/flutter/6.png)
 
 ### FOR certificate-based (.p12)
 
@@ -56,5 +56,5 @@ For ios your need to perform below given step:
     - Accept the default .p12 file format and click Save. Respond to the prompts, and enter a password for the file if necessary.
     - Keep track of this file, since you'll upload it to firebase in a later step.
 
-![eShop](/img/7.png)
-![eShop](/img/8.png) 
+![eShop](/img/flutter/7.png)
+![eShop](/img/flutter/8.png) 

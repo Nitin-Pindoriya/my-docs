@@ -8,4 +8,4 @@ How to Fit xy(fill) product image in box
 2. it depend on you, if you upload image with background then it is preferrable to fill image
 3. and if you upload project with all same background then you can set fill image false
 
-![eShop](/img/exp.png) 
+![eShop](/img/flutter/exp.png) 
