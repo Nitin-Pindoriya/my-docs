@@ -10,7 +10,7 @@ Welcome to the eShop Single Vendor ChangeLog! This section documents all the imp
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |---|---|---|---|---|---|
-| 4.4.4 | 3.32.2 | 2.0.10 | 8.5.0 | 8.7 | 21 |
+| 4.4.4 | 3.32.5 | 2.2.0 | 8.11.0 | 8.14.3 | 24 |
 | 4.4.3 | 3.27.2 | 2.0.10 | 8.5.0 | 8.7 | 21 |
 
 ## Version 4.4.3

@@ -8,10 +8,16 @@ How to Change language String value
 
 ![eShop](/img/lan2.png)
 
-2. For example, If you want to change "Welcome to eShop" string in your app then find that string in lib -> language folder .json files and replace with your string.
+2. If you want to update this string for all supported languages, repeat the process in each language's JSON file, ensuring the new value is consistent across all files.
 
-![eShop](/img/lang3.png)
+3. For example, If you want to change "Welcome to eShop" string in your app then find that string in lib -> language folder .json files and replace with your string.
 
-3. And if you want to change or convert that string in all language or some language then you have to find that string label in all .json files and replace string with your string name.
-
-![eShop](/img/lang4.png) 
+**Example:**
+To change the welcome message in English, open `lib/language/en.json` and update the value. For example, change:
+```json
+"welcome": "Welcome to eShop"
+```
+to
+```json
+"welcome": "Hello and welcome!"
+``` 

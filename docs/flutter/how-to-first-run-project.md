@@ -3,21 +3,10 @@ title: How to first run project
 ---
 
 How to first run project
+1. You can fetch dependencies by clicking the "Get Packages" button at the top of your pubspec.yaml file, or by running `flutter pub get` in the terminal. Both methods will install all required packages for your project.
 
 ![eShop](/img/open2.png)
 
-1. Go to file > open > then choose your downloaded project location then your project will open. And if you see upper right part 'enable dart support' then click that and go to pubspec.yaml file and in upper right part click pub get or package get and then press run button.
+2. After fetching the packages (by clicking "Get Packages" in the upper right of pubspec.yaml), you need to open the `main.dart` file to get the option for running the app. You can also press **F5** as a shortcut to run the app. Then, click the **Run** button (as shown in the image below) to start your Flutter application on the selected device or emulator.
 
 ![eShop](/img/runapp.png)
-
-**If your are getting error then you can perform below hack**
-
-1. If in your system firewall is on, then you can temporary disable firewall and then try to run project
-2. If your flutter channel is not stable then you need to change it to stable. You can check your flutter channel by terminal.
-3. Go to android studio in bottom line click on terminal, in terminal write flutter channel, as shown below.
-
-![eShop](/img/ch1.png)
-
-4. If you are not in stable then write flutter channel stable
-5. Go to Tools > Flutter > Flutter Clean.
-6. Go to file > invalidate cache/ restart 

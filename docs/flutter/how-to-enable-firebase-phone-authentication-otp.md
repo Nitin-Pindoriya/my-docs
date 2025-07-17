@@ -30,6 +30,7 @@ How to enable Firebase Phone Authentication(OTP)
 10. After release you can get sha from play console here
 
 ![eShop](/img/otp_sha_3.png)
+![eShop](/img/otp_sha_4.png)
 
 11. Or another way you can also get release sha from below given command in cmd
 12. Go to run and type cmd

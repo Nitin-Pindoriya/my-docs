@@ -1,9 +1,7 @@
 ---
 title: How to Add/Remove language
 ---
-
 How to Add/Remove language
-
 ### To Add New Language
 
 1. If you want to Add new language then copy one json file from language folder and add it to language folder then rename it to language code of your new language
@@ -11,20 +9,21 @@ How to Add/Remove language
 
 ![eShop](/img/lan2.png)
 
-3. Now search in whole project "en", by pressing ctrl shift f. Now where you see language code in list add your new language code there.
+3. To add a new language, you would add a new Language object to this list with the appropriate code and names.
 
-![eShop](/img/lang1.png)
-
-4. Now go to MyProfile.dart file inside that find addLanguageList method in add your new language string name here as shown in below image. Now add this new language string to all json file here you have to use same string name as you have specified in language list in left side. In right side give language name
+For example, to add French, add the following line to your list:
+```dart
+Language(code: "fr", languageName: "French", languageSubName: "Français"),
+```
 
 ![eShop](/img/lang2.png)
 
-5. Add your language name in each and every language file
+4. Add your language name in each and every language file
 
 ![eShop](/img/lang5.png)
 
 ### To remove language
 
-1. Now search in whole project "en", by pressing ctrl shift f. Now where you see language code in list remove language code that you don't want.
+1. If you want to remove a language from the app, simply delete its corresponding files or remove the relevant language code line as shown in the picture below. Be sure to update your code to fall back to your default language wherever necessary.
 
 ![eShop](/img/lang1.png) 

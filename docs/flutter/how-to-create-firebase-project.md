@@ -1,45 +1,35 @@
 ---
-title: How to Create firebase project
+title: How to Create firebase project 
+---
+How to Create firebase project
+## 🔥 How to Set Up Firebase in Your Flutter App  
+:::caution
+You must use the **same Firebase project** for the app, web, and panels to ensure seamless integration.
+:::
+
 ---
 
-How to Create firebase project
+### ⚙️ Step 1: Install Firebase CLI
 
-1. Go to firebase console.and then click on add project.
+Before creating a Firebase app from Flutter, you must install **Firebase CLI.**
 
-![eShop](/img/fcm1.png)
+**📌 Follow the official guide to install Firebase CLI:**  
+🔗 [Firebase CLI Installation Guide](https://firebase.google.com/docs/cli)
 
-2. After that below given step will come. Here you have to enter your project details. Enter your project name and then press on continue. Then select email and then press continue.
+---
 
-![eShop](/img/fcm2.png)
+### 🏗️ Step 2: Create a Firebase Project
+1️⃣ Open **Firebase Console** and click **Create a Project**.  
 
-3. After that your project is created
+  ![firebase](/img/firebase/firebase1.png)
 
-![eShop](/img/fcm3.png)
+2️⃣ Enter your **project name** and press **Continue**.  
 
-4. For android, now first click on android
+  ![firebase](/img/firebase/firebase2.png)  
 
-![eShop](/img/fcm4.png)
+3️⃣ Press **Continue** on the next screen.  
 
-5. After that below given screen will appear, in that you have to enter your packagename and appname. And then click register app.
+  ![firebase](/img/firebase/firebase3.png)  
 
-![eShop](/img/fcm5.png)
-
-6. After that below given screen will appear, now click on download google-services.json. After that open the file and copy content of file and replace in android > app > google-service.son.
-
-![eShop](/img/fcm6.png)
-![eShop](/img/fcm7.png)
-
-7. Now click on next next and in last step press continue to the console button.
-8. For ios, perform below step. Now click on add app.
-
-![eShop](/img/fcm8.png)
-
-9. And then click on ios button. In this same as android step will be come here you have to enter your appname. Then next and on next screen download google service info.plist file.
-
-![eShop](/img/fcm9.png)
-
-10. Now copy the content of that file and replace in ios > Runner > GoogleServie-info.plist
-
-![eShop](/img/fcm10.png)
-
-11. Now press next next on firebase console and that's it your project is created on ios. 
+4️⃣ Click **Create Project** and wait for the setup to complete.  
+5️⃣ Once done, press **Continue**.  

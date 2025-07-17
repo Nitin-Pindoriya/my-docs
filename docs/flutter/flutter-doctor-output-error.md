@@ -8,8 +8,17 @@ Flutter Doctor Output Error
 
    ![eShop](/img/upgrade1.png)
 
-2. Then go to sdk manager from upper right corner then go to android sdk inside that sdk tools and then uncheck hide obsolete package then check android sdk command line tool latest then apply and then ok. it will download latest version as shown in below fig.
-
-   ![eShop](/img/upgrade2.png)
+2. Open **Visual Studio Code**.
+   - Open a new terminal in VS Code (`Terminal > New Terminal`).
+   - Run the following command to accept Android licenses:
+     ```sh
+     flutter doctor --android-licenses
+     ```
+   - When prompted, type `y` to accept each license.
+   - After accepting all licenses, run:
+     ```sh
+     flutter doctor
+     ```
+   - The "license status unknown" error should now be resolved.
 
 3. Now run flutter doctor again your error will be removed 
