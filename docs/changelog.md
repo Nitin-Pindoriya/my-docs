@@ -13,6 +13,24 @@ Welcome to the eShop Single Vendor ChangeLog! This section documents all the imp
 | 4.4.4 | 3.32.7 | 2.2.0 | 8.11.0 | 8.14.3 | 24 |
 | 4.4.3 | 3.27.2 | 2.0.10 | 8.5.0 | 8.7 | 21 |
 
+## Version 4.4.4
+( updated on 17 Jul 2025 )
+
++ [Added] Support for digital product checkout and download
++ [Added] MANAGE_EXTERNAL_STORAGE permission for Android
++ [Added] New NoInternetWidget in Customer Support
++ [Improved] Wallet system and backend transaction order handling
++ [Improved] UI improvements
++ [Improved] Code cleanup for deprecated APIs, inputFormatters, and null-safety
++ [Improved] Optimized button layout, spacing, and screen responsiveness
++ [Improved] order item cancel and return flow
++ [Improved] System User Permissions
++ [Fixed] Bugs fixes and code improvements
++ [Updated] compileSdkVersion from 34 to 35
++ [Updated] pubspec.yaml to include new Lottie asset
++ [Updated] Localization files with new keys across supported languages
++ [Updated] Compatibility with Java 24 and Flutter 3.32.7
+
 ## Version 4.4.3
 ( updated on 11 Apr 2025 )
 
