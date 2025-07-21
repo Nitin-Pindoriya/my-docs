@@ -1,1 +1,8 @@
- 
+{
+  "label": "Reports",
+  "position": 19,
+  "link": {
+    "type": "generated-index",
+    "title": "Reports Overview"
+  }
+} 
