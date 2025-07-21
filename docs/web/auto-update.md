@@ -5,9 +5,7 @@ title: Auto Update
 
 ### Auto Update
 
-<div class="promo">
-    <img class="bordered" src="/img/auto_update.jpg" alt="sample3"/>
-</div>
+<!-- ![Auto Update](/img/web/auto_update.jpg) -->
 
 - To Update the app you just need to download latest `eShop_Web.zip` from CodeCanyon and paste `Auto_Update` folder inside your `Auto_Update` folder of `eShop_Web.zip` which is present inside the `public` folder and your app is ready with latest updates.
 

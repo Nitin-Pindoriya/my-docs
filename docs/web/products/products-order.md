@@ -5,8 +5,6 @@ title: Products Order
 
 ### Products Order
 
-<div class="promo">
-    <img class="bordered" src="/img/products_order.jpg" alt="sample3"/>
-</div>
+![Products Order](/img/web/products_order.jpg)
 
-Here all the information related to Products Order is display 
+Here all the information related to Products Order is display

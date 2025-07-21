@@ -16,14 +16,7 @@ title: Shipping Methods
 
 ###### How to change shipping Methods:
 
-<div class="simplelightbox-gallery">
-    <a href="/img/shipping_method.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/shipping_method.png" class="bordered" alt=""/>
-        </div>
-    </a>
-</div>
+![Shipping Method](/img/web/shipping_method.png)
 
 ## Local Shipping Method
 
@@ -41,71 +34,29 @@ Shiprocket, a product of Delhi based BigFoot Retail solution, is India's first a
 
 - First Create shiprocket account [Click here.](https://app.shiprocket.in/register)
 
-<div class="simplelightbox-gallery">
-    <a href="/img/shiprocket_account.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/shiprocket_account.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Shiprocket Account](/img/web/shiprocket_account.png)
 
 ## Recharge Wallet
 
 - After successfully login you have to recharge you shiprocket wallet without wallet balance you can not use their services
 
-<div class="simplelightbox-gallery">
-    <a href="/img/shiprocket_wallet.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/shiprocket_wallet.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Shiprocket Wallet](/img/web/shiprocket_wallet.png)
 
 ## API Config
 
 - So now to use shiprocket in your system first go to api Config from [here](https://app.shiprocket.in/api-user)
 
-<div class="simplelightbox-gallery">
-    <a href="/img/shiprocketApi_config.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/shiprocketApi_config.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Shiprocket API Config](/img/web/shiprocketApi_config.png)
 
-<div class="simplelightbox-gallery">
-    <a href="/img/create_shiprocketApi.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/create_shiprocketApi.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Create Shiprocket API](/img/web/create_shiprocketApi.png)
 
 - Here you have to create user for use shiprocket in your system.
 
-<div class="simplelightbox-gallery">
-    <a href="/img/create_shiprocketApi2.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/create_shiprocketApi2.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Create Shiprocket API 2](/img/web/create_shiprocketApi2.png)
 
 - ##### After creating user you have to add user credentials in your admin panel here.
 
-<div class="simplelightbox-gallery">
-    <a href="/img/shipping_methods.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/shipping_methods.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Shipping Methods](/img/web/shipping_methods.png)
 
 ## How it will work?
 
@@ -114,147 +65,57 @@ Shiprocket, a product of Delhi based BigFoot Retail solution, is India's first a
 - Shiprocket uses pickup location for pickup orders from owner
 - In your system only seller can add pickup location, from here seller can add pickup location.
 
-<div class="simplelightbox-gallery">
-    <a href="/img/seller_pickup_location.png">
-        <!-- media -->
-        <div class="promo">
-            <img src="/img/seller_pickup_location.png" class="image-doc" alt=""/>
-        </div>
-    </a>
-</div>
+![Seller Pickup Location](/img/web/seller_pickup_location.png)
+
 
 ##### After adding pickup location admin have to verified pickup location from admin panel and also from shiprocket dashboard
 
 1.  Verify pickup location from admin panel
-    <div class="simplelightbox-gallery">
-        <a href="/img/admin_pickup_location.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/admin_pickup_location.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Admin Pickup Location](/img/web/admin_pickup_location.png)
 2.  Verify pickup location from shiprocket dashboard
-    <div class="simplelightbox-gallery">
-        <a href="/img/shiprocket_pickup_location.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/shiprocket_pickup_location.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
-    <div class="simplelightbox-gallery">
-        <a href="/img/shiprocket_verify_pickup_location.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/shiprocket_verify_pickup_location.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Shiprocket Pickup Location](/img/web/shiprocket_pickup_location.png)
+    
+    ![Verify Pickup Location](/img/web/shiprocket_verify_pickup_location.png)
 
 #### 2. Add product or Edit product.
 
 - After successfully verify pickup location you can add/edit product like this
 
 1.  For simple product
-    <div class="simplelightbox-gallery">
-        <a href="/img/add_simple_product.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/add_simple_product.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Add Simple Product](/img/web/add_simple_product.png)
 2.  For variable product
-    <div class="simplelightbox-gallery">
-        <a href="/img/add_variable_product.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/add_variable_product.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Add Variable Product](/img/web/add_variable_product.png)
 
 ## How to create shiprocket order?
 
 - After getting orders and want deliver order using shiprocket you have to create shiprocket order Go to edit order in your panel
 
 1.  Select Pickup Location for which you want to create parcel and click on Create Shiprocket Order button.
-    <div class="simplelightbox-gallery">
-        <a href="/img/create_order.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/create_order.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Create Order](/img/web/create_order.png)
 2.  After creating order generate AWB code (its unique number use for identify order) like this.
-    <div class="simplelightbox-gallery">
-        <a href="/img/generate_awb.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/generate_awb.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Generate AWB](/img/web/generate_awb.png)
 3.  After generate AWB Send pickup request for scheduled your shipping.
-    <div class="simplelightbox-gallery">
-        <a href="/img/send_pickup_request.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/send_pickup_request.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Send Pickup Request](/img/web/send_pickup_request.png)
 4.  Generate and download Label.
-    <div class="simplelightbox-gallery">
-        <a href="/img/generate_label.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/generate_label.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
-    <div class="simplelightbox-gallery">
-        <a href="/img/download_label.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/download_label.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Generate Label](/img/web/generate_label.png)
+    
+    ![Download Label](/img/web/download_label.png)
 5.  Generate and download Invoice.
-    <div class="simplelightbox-gallery">
-        <a href="/img/generate_invoice.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/generate_invoice.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
-    <div class="simplelightbox-gallery">
-        <a href="/img/download_invoice.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/download_invoice.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Generate Invoice](/img/web/generate_invoice.png)
+    
+    ![Download Invoice](/img/web/download_invoice.png)
 6.  Cancel shiprocket order.
-    <div class="simplelightbox-gallery">
-        <a href="/img/cancel_order.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/cancel_order.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div>
+    
+    ![Cancel Order](/img/web/cancel_order.png)
 7.  Shiprocket order tracking.
-    <div class="simplelightbox-gallery">
-        <a href="/img/order_tracking.png">
-            <!-- media -->
-            <div class="promo">
-                <img src="/img/order_tracking.png" class="image-doc" alt=""/>
-            </div>
-        </a>
-    </div> 
+    
+    ![Order Tracking](/img/web/order_tracking.png)

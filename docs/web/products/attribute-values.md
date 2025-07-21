@@ -5,38 +5,24 @@ title: Attribute Values
 
 ### Attribute Values
 
-<div class="promo">
-    <img class="bordered" src="/img/attribute_values_tab.jpg" alt="sample3"/>
-</div>
+![Attribute Values](/img/web/attribute_values_tab.jpg)
 
 Here all the information related to Attribute Values is display
 
 Actions
 
 - Search Attribute Values details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Attribute Values Name or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Attribute Values Name or Any other Detail
 - Refresh Attribute Values list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Attribute Values List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Attribute Values List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Attribute Values details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Attribute Values details according to the criteria
 - Edit Attribute Values
-  - <div class="promo">
-        <img class="bordered" src="/img/edit_tab.jpg" alt="sample3"/> Used to Edit the Attribute Values details
-    </div>
+  - ![Edit Tab](/img/web/edit_tab.jpg) Used to Edit the Attribute Values details
 - Delete Attribute Values
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the Attribute Values details
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the Attribute Values details
 - Attribute Values Status
-  - <div class="promo">
-        <img class="bordered" src="/img/status_tab.jpg" alt="sample3"/> Used to Active And Deactive the Attribute Values Status
-    </div>
+  - ![Status Tab](/img/web/status_tab.jpg) Used to Active And Deactive the Attribute Values Status
 
 We Can add New Attribute Values and delete Attribute Values by following Steps :
 
@@ -44,26 +30,18 @@ We Can add New Attribute Values and delete Attribute Values by following Steps :
 
 Click on Add Attribute Values Tab Present On The Right Side
 
-<div class="promo">
-    <img class="bordered" src="/img/attribute_values_tab2.jpg" alt="sample3"/>
-</div>
+![Attribute Values Form](/img/web/attribute_values_tab2.jpg)
 
 Clicking to the Add Attribute Values tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/attribute_values_tab3.jpg" alt="sample3"/>
-</div>
+![Attribute Values Details](/img/web/attribute_values_tab3.jpg)
 
 1.  Select the Attribute Values
-    <div class="promo">
-        <img class="bordered" src="/img/select_attributes.jpg" alt="sample3"/>
-    </div>
+    ![Select Attributes](/img/web/select_attributes.jpg)
 2.  Select the Parent
-    <div class="promo">
-        <img class="bordered" src="/img/select_parent.jpg" alt="sample3"/>
-    </div>
+    ![Select Parent](/img/web/select_parent.jpg)
 3.  Click add Attribute Values to add Attribute Values or Reset to Reset the form.
 
 ## Step 2:Delete Attribute Values from the List
 
-For Deleting Attribute Values we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions Attribute Values. 
+For Deleting Attribute Values we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions Attribute Values.

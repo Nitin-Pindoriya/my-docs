@@ -5,38 +5,24 @@ title: Attribute Sets
 
 ### Attribute Sets
 
-<div class="promo">
-    <img class="bordered" src="/img/attribut_sets_tab.jpg" alt="sample3"/>
-</div>
+![Attribute Sets](/img/web/attribut_sets_tab.jpg)
 
 Here all the information related to Attribute Sets is display
 
 Actions
 
 - Search Attribute Sets details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Attribute Sets Name or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Attribute Sets Name or Any other Detail
 - Refresh Attribute Sets list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Attribute Sets List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Attribute Sets List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Attribute Sets details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Attribute Sets details according to the criteria
 - Edit Attribute Sets
-  - <div class="promo">
-        <img class="bordered" src="/img/edit_tab.jpg" alt="sample3"/> Used to Edit the Attribute Sets details
-    </div>
+  - ![Edit Tab](/img/web/edit_tab.jpg) Used to Edit the Attribute Sets details
 - Delete Attribute Sets
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the Attribute Sets details
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the Attribute Sets details
 - Attribute Sets Status
-  - <div class="promo">
-        <img class="bordered" src="/img/status_tab.jpg" alt="sample3"/> Used to Active And Deactive the Attribute Sets Status
-    </div>
+  - ![Status Tab](/img/web/status_tab.jpg) Used to Active And Deactive the Attribute Sets Status
 
 We Can add New Attribute Sets and delete Attribute Sets by following Steps :
 
@@ -44,19 +30,15 @@ We Can add New Attribute Sets and delete Attribute Sets by following Steps :
 
 Click on Add Attribute Sets Tab Present On The Right Side
 
-<div class="promo">
-    <img class="bordered" src="/img/attribut_sets2_tab.jpg" alt="sample3"/>
-</div>
+![Attribute Sets Form](/img/web/attribut_sets2_tab.jpg)
 
 Clicking to the Add Attribute Sets tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/attribut_sets3_tab.jpg" alt="sample3"/>
-</div>
+![Attribute Sets Details](/img/web/attribut_sets3_tab.jpg)
 
 1.  In Attribute Sets Name field Enter the Name of the Attribute Sets.
 2.  Click add Attribute Sets to add Attribute Sets or Reset to Reset the form.
 
 ## Step 2:Delete Attribute Sets from the List
 
-For Deleting Attribute Sets we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions Attribute Sets. 
+For Deleting Attribute Sets we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions Attribute Sets.

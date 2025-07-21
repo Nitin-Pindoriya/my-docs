@@ -5,9 +5,7 @@ title: Contact Us
 
 ### Contact Us
 
-<div class="promo">
-    <img class="bordered" src="/img/contact_us.jpg" alt="sample3"/>
-</div>
+![Contact Us Page](/img/web/contact_us.jpg)
 
 From Here The Contact Us content can be Updated as per requirements
 

@@ -5,39 +5,23 @@ title: Orders
 
 ## Order Panel
 
-<div class="promo">
-    <img class="bordered" src="/img/orders_table.jpg" alt="sample3"/>
-</div>
+![Orders Table](/img/web/orders_table.jpg)
 
 Here all the information related to order is displayed
 
 Actions
 
 - Filters By Status
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_status.jpg" alt="sample3"/> Used to filter the Order Status according to the criteria
-    </div>
+  - ![Filter Status](/img/web/filter_status.jpg) Used to filter the Order Status according to the criteria
 - Search Order details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Order Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Order Detail
 - Refresh Orders list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Order List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Order List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Order details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Order details according to the criteria
 - View Order
-  - <div class="promo">
-        <img class="bordered" src="/img/view_tab.jpg" alt="sample3"/> To View the Order details
-    </div>
+  - ![View Tab](/img/web/view_tab.jpg) To View the Order details
 - Delete Order
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> To delete the Order
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) To delete the Order
 - Invoice Order
-  - <div class="promo">
-        <img class="bordered" src="/img/invoice_tab.jpg" alt="sample3"/> To Invoice the Order details
-    </div>
+  - ![Invoice Tab](/img/web/invoice_tab.jpg) To Invoice the Order details

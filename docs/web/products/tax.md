@@ -5,34 +5,22 @@ title: Tax
 
 ### Products Tax
 
-<div class="promo">
-    <img class="bordered" src="/img/tax_tab.jpg" alt="sample3"/>
-</div>
+![Tax Tab](/img/web/tax_tab.jpg)
 
 Here all the information related to Products Tax is display
 
 Actions
 
 - Search Products Tax details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Products Tax title or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Products Tax title or Any other Detail
 - Refresh Products Tax list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Products Tax List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Products Tax List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Products Tax details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Products Tax details according to the criteria
 - Edit Products Tax
-  - <div class="promo">
-        <img class="bordered" src="/img/edit_tab.jpg" alt="sample3"/> Used to Edit the Products Tax details
-    </div>
+  - ![Edit Tab](/img/web/edit_tab.jpg) Used to Edit the Products Tax details
 - Delete Products Tax
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the Products Tax details
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the Products Tax details
 
 We Can add New Products Tax and delete Products Tax by following Steps :
 
@@ -40,19 +28,15 @@ We Can add New Products Tax and delete Products Tax by following Steps :
 
 Click on Add Tax Tab Present On The Right Side
 
-<div class="promo">
-    <img class="bordered" src="/img/tax2_tab.jpg" alt="sample3"/>
-</div>
+![Tax Form](/img/web/tax2_tab.jpg)
 
 Clicking to the Add Products Tax tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/tax3_tab.jpg" alt="sample3"/>
-</div>
+![Tax Details](/img/web/tax3_tab.jpg)
 
 1.  In Products Tax Title field Enter the Title of the Products Tax.
 2.  Click add Tax to add Tax or Reset to Reset the form.
 
 ## Step 2:Delete Products Tax from the List
 
-For Deleting Products Tax we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions Products Tax. 
+For Deleting Products Tax we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions Products Tax.

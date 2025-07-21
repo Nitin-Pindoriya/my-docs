@@ -5,10 +5,8 @@ title: Home
 
 ## Home Panel
 
-<div class="promo">
-    <img class="bordered" src="/img/home_page.jpg" alt="sample3"/>
-    <p>Sample image</p>
-</div>
+![Home Page](/img/web/home_page.jpg)
+Sample image
 
 It Mainly contains 4 Items
 
@@ -24,10 +22,8 @@ And Two charts
 
 The Above web page contains Customize The Theme on the right panel like No Navbar border,Body small text,Navbar small text,Sidebar nav small text,Footer small text,Sidebar nav flat style,Sidebar nav child indent,Navbar Variants,Dark Sidebar Variants,Dark Sidebar Variants to manage the whole website
 
-<div class="promo">
-    <img class="bordered" src="/img/header-users.jpg" alt="sample3"/>
-    <p>Sample image</p>
-</div>
+![Header Users](/img/web/header-users.jpg)
+Sample image
 
 It Mainly contains 2 Items
 

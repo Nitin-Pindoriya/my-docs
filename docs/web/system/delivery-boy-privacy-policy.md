@@ -5,9 +5,7 @@ title: Delivery Boy Privacy Policy
 
 ### Delivery Boy Privacy Policy
 
-<div class="promo">
-    <img class="bordered" src="/img/delivery_boy_privacy.jpg" alt="sample3"/>
-</div>
+![Delivery Boy Privacy Policy](/img/web/delivery_boy_privacy.jpg)
 
 From Here The Delivery Boy Privacy Policy content can be Updated as per requirements
 

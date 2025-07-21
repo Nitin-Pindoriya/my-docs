@@ -5,38 +5,26 @@ title: Send Notification
 
 ## Send Notification
 
-<div class="promo">
-    <img class="bordered" src="/img/notifaction_tab.jpg" alt="sample3"/>
-</div>
+![Notification Tab](/img/web/notifaction_tab.jpg)
 
 Here all the information related to Notification Details is display
 
 Actions
 
 - Search Notification Details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Notification Title or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Notification Title or Any other Detail
 - Refresh Notification list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Notification List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Notification List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Notification details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Notification details according to the criteria
 - Delete Notification
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the Notification Details.
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the Notification Details.
 
 We Can Send Notification and delete Notification by following Steps :
 
 ## Step 1: Fill the Fields as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/notifaction.jpg" alt="sample3"/>
-</div>
+![Notification Form](/img/web/notifaction.jpg)
 
 1.  Select Type of the Notification Type.
 2.  In Title field Enter the Title of the Notification.
@@ -46,4 +34,4 @@ We Can Send Notification and delete Notification by following Steps :
 
 ## Step 2:Delete Notification from the List
 
-For Deleting Notification we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions Notification. 
+For Deleting Notification we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions Notification.

@@ -10,42 +10,22 @@ title: Overview
 ## Getting Started with cPanel Setup
 
 1.  Login into your cPanel.
-    <div class="promo">
-        <img src="/img/cp-1.png" class="bordered"/>
-    </div>
+    ![cPanel Login](/img/web/cp-1.png)
 2.  Go to database in your cPanel
-    <div class="promo">
-        <img src="/images/cp-2.png" class="bordered"/>
-    </div>
+    ![cPanel Database](/img/web/cp-2.png)
 3.  Enter database name and Create a new database.
-    <div class="promo">
-        <img src="/images/cp-3.png" class="bordered"/>
-    </div>
+    ![Create Database](/img/web/cp-3.png)
 4.  Create Database user.
-    <div class="promo">
-        <img src="/images/cp-4.png" class="bordered"/>
-    </div>
+    ![Create Database User](/img/web/cp-4.png)
 5.  Assign Database to the user.
-    <div class="promo">
-        <img src="/images/cp-5.png" class="bordered"/>
-    </div>
+    ![Assign Database](/img/web/cp-5.png)
 6.  Open File manager now.
-    <div class="promo">
-        <img src="/images/cp-6.png" class="bordered"/>
-    </div>
+    ![Open File Manager](/img/web/cp-6.png)
 7.  Go to public_html or public_html/yourDomain.in folder in the file manager, whichever folder your domain points to.
-    <div class="promo">
-        <img src="/images/cp-7.png" class="bordered"/>
-    </div>
+    ![Navigate to Public HTML](/img/web/cp-7.png)
 8.  Upload the downloaded zip in public_html or public_html/yourDomain.in folder.
-    <div class="promo">
-        <img src="/images/cp-8.png" class="bordered"/>
-    </div>
+    ![Upload Zip File](/img/web/cp-8.png)
 9.  Unzip or extract the **Code vX.X - upload this on server.zip** file that you have just uploaded.
-    <div class="promo">
-        <img src="/images/cp-9.png" class="bordered"/>
-    </div>
+    ![Extract Zip File](/img/web/cp-9.png)
 10. Verify that all these files are in public_html or public_html/yourDomain.in folder.
-    <div class="promo">
-        <img src="/images/cp-10.png" class="bordered"/>
-    </div> 
+    ![Verify Files](/img/web/cp-10.png)

@@ -5,8 +5,6 @@ title: Sections Order
 
 ### Sections Order
 
-<div class="promo">
-    <img class="bordered" src="/img/section_order.jpg" alt="sample3"/>
-</div>
+![Sections Order](/img/web/section_order.jpg)
 
 Here all the information related to Sections Order is display 

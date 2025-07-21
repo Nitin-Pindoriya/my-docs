@@ -5,34 +5,22 @@ title: Manage Products
 
 ### Manage Products
 
-<div class="promo">
-    <img class="bordered" src="/img/manage_pro_tab.jpg" alt="sample3"/>
-</div>
+![Manage Products](/img/web/manage_pro_tab.jpg)
 
 Here all the information related to Products is display
 
 Actions
 
 - Search the Products details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Products Name or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Products Name or Any other Detail
 - Refresh Manage Products list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Products List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Products List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Products details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Products details according to the criteria
 - Edit the Products
-  - <div class="promo">
-        <img class="bordered" src="/img/edit_tab.jpg" alt="sample3"/> Used to Edit the Products details
-    </div>
+  - ![Edit Tab](/img/web/edit_tab.jpg) Used to Edit the Products details
 - Delete the Products
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the Products details
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the Products details
 
 We Can add New Products and delete Products by following Steps :
 
@@ -40,15 +28,11 @@ We Can add New Products and delete Products by following Steps :
 
 Click on Add Products Tab Present On The Right Side
 
-<div class="promo">
-    <img class="bordered" src="/img/manage_pro2_tab.jpg" alt="sample3"/>
-</div>
+![Manage Products Add](/img/web/manage_pro2_tab.jpg)
 
 Clicking to the Add Products tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/add_product_tab.jpg" alt="sample3"/>
-</div>
+![Add Product Tab](/img/web/add_product_tab.jpg)
 
 1.  In Product Name field Enter the Name of the Product.
 2.  In Product Description field Enter the Description of the Product.
@@ -61,4 +45,4 @@ Clicking to the Add Products tab a new window will be displayed as follows
 
 ## Step 2:Delete Products from the List
 
-For Deleting Products we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions Products. 
+For Deleting Products we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions Products.

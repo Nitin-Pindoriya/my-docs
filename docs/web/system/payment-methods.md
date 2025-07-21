@@ -5,15 +5,13 @@ title: Payment Methods
 
 ### Payment Methods
 
-<div class="promo">
-    <img class="bordered" src="/img/payment_methods.jpg" alt="sample3"/>
-</div>
+![Payment Methods](/img/web/payment_methods.jpg)
 
 From Here The Payment Methods can be Updated as per requirements
 
 - **Paypal Payments**: From Here we can update the Paypal Payments
 - **Payment Mode**: From Here we can update the Payment Mode
-- **Paypal Business Email** : <img src="/img/from_email.jpg" width="200px"/>From Here we can update the Paypal Business Email
+- **Paypal Business Email** : ![From Email](/img/web/from_email.jpg) From Here we can update the Paypal Business Email
 - **Currency code**: From Here we can update the Currency code
 - **Notification URL**: From Here we can update the Notification URL
 

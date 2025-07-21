@@ -5,9 +5,7 @@ title: Web Version Firebase Configuration
 
 ### Web Version Firebase Configuration
 
-<div class="promo">
-    <img class="bordered" src="/img/web_firebase_config.jpg" alt="sample3"/>
-</div>
+<!-- ![Web Firebase Configuration](/img/web/web_firebase_config.jpg) -->
 
 From Here The Firebase Configuration for Web Version can be Updated as per requirements
 

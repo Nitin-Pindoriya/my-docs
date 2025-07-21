@@ -5,34 +5,22 @@ title: City
 
 ### City
 
-<div class="promo">
-    <img class="bordered" src="/img/city_tab.jpg" alt="sample3"/>
-</div>
+![City Tab](/img/web/city_tab.jpg)
 
 Here all the information related to City is display
 
 Actions
 
 - Search City details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the City Name or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the City Name or Any other Detail
 - Refresh City list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh City List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh City List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the City details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the City details according to the criteria
 - Edit City
-  - <div class="promo">
-        <img class="bordered" src="/img/edit_tab.jpg" alt="sample3"/> Used to Edit the City details
-    </div>
+  - ![Edit Tab](/img/web/edit_tab.jpg) Used to Edit the City details
 - Delete City
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the City Details.
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the City Details.
 
 We Can add New City and delete City by following Steps :
 
@@ -42,13 +30,11 @@ Click on Add City Tab Present On The Right Side
 
 Clicking to the Add City tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/new_city2.jpg" alt="sample3"/>
-</div>
+![New City Form](/img/web/new_city2.jpg)
 
 1.  In City Name field Enter the Name of the City.
 2.  Click add City to add City or Reset to Reset the form.
 
 ## Step 2:Delete City from the List
 
-For Deleting City we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions City. 
+For Deleting City we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions City.

@@ -9,10 +9,8 @@ title: Installation
 2.  Create a new database from cPanel.
 3.  Create new user for the database & give all the privileges to the user.
 4.  After creation of user visit `https://eshop.com/install`
-    <div class="promo">
-        <img class="bordered" src="/img/installer-1.png" alt="sample1"/>
-        <p>Sample image</p>
-    </div>
+    ![Installation Wizard](/img/web/installer-1.png)
+    Sample image
     <ol>
         <li><span style={{ color: 'blue' }}>Database Hostname</span> : Enter the hostname.</li>
         <li><span style={{ color: 'blue' }}>Database Username</span> : Enter the username that has access to the database.</li>

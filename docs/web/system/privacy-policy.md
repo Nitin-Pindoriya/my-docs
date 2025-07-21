@@ -5,9 +5,7 @@ title: Privacy Policy
 
 ### Privacy Policy
 
-<div class="promo">
-    <img class="bordered" src="/img/privacy_policy.jpg" alt="sample3"/>
-</div>
+![Privacy Policy](/img/web/privacy_policy.jpg)
 
 From Here The Privacy Policy content can be Updated as per requirements
 

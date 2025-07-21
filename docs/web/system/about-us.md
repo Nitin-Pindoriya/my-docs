@@ -5,9 +5,7 @@ title: About Us
 
 ### About Us
 
-<div class="promo">
-    <img class="bordered" src="/img/about_us.jpg" alt="sample3"/>
-</div>
+![About Us Page](/img/web/about_us.jpg)
 
 From Here The About Us content can be Updated as per requirements
 

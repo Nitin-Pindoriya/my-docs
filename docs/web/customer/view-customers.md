@@ -5,23 +5,15 @@ title: View Customers
 
 ## View Customer
 
-<div class="promo">
-    <img class="bordered" src="/img/view_customers.png" alt="sample3"/>
-</div>
+![View Customers](/img/web/view_customers.PNG)
 
 Here all the information related to Customer is display
 
 Actions
 
 - Search Customer
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Customer Name or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Customer Name or Any other Detail
 - Refresh Customer list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Customer List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Customer List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Customer details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Customer details according to the criteria

@@ -9,9 +9,7 @@ title: Add Products
 
 Clicking to the New Product tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/add_product_tab.jpg" alt="sample3"/>
-</div>
+![Add Product Tab](/img/web/add_product_tab.jpg)
 
 1.  In Product Name field Enter the Name of the Product.
 2.  In Product Description field Enter the Description of the Product.

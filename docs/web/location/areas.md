@@ -5,34 +5,22 @@ title: Areas
 
 ### Areas
 
-<div class="promo">
-    <img class="bordered" src="/img/area_tab.jpg" alt="sample3"/>
-</div>
+![Area Tab](/img/web/area_tab.jpg)
 
 Here all the information related to Areas is display
 
 Actions
 
 - Search Area details
-  - <div class="promo">
-        <img class="bordered" src="/img/search_tab.jpg" alt="sample3"/> To search the Area Name or Any other Detail
-    </div>
+  - ![Search Tab](/img/web/search_tab.jpg) To search the Area Name or Any other Detail
 - Refresh Area list
-  - <div class="promo">
-        <img class="bordered" src="/img/refresh_tab.jpg" alt="sample3"/> To Refresh Area List
-    </div>
+  - ![Refresh Tab](/img/web/refresh_tab.jpg) To Refresh Area List
 - Filters
-  - <div class="promo">
-        <img class="bordered" src="/img/filter_tab.jpg" alt="sample3"/> Used to filter the Area details according to the criteria
-    </div>
+  - ![Filter Tab](/img/web/filter_tab.jpg) Used to filter the Area details according to the criteria
 - Edit Area
-  - <div class="promo">
-        <img class="bordered" src="/img/edit_tab.jpg" alt="sample3"/> Used to Edit the Area details
-    </div>
+  - ![Edit Tab](/img/web/edit_tab.jpg) Used to Edit the Area details
 - Delete Area
-  - <div class="promo">
-        <img class="bordered" src="/img/delete1_tab.jpg" alt="sample3"/> Used to Delete the Area Details.
-    </div>
+  - ![Delete Tab](/img/web/delete1_tab.jpg) Used to Delete the Area Details.
 
 We Can add New Area and delete Area by following Steps :
 
@@ -42,13 +30,11 @@ Click on Add Area Tab Present On The Right Side
 
 Clicking to the Add Area tab a new window will be displayed as follows
 
-<div class="promo">
-    <img class="bordered" src="/img/add_area_tab.jpg" alt="sample3"/>
-</div>
+![Add Area Tab](/img/web/add_area_tab.jpg)
 
 1.  In Area Name field Enter the Name of the Area.
 2.  Click add Area to add Area or Reset to Reset the form.
 
 ## Step 2:Delete Area from the List
 
-For Deleting Area we need to use <img src="/img/delete1_tab.jpg"/> as explained above under Actions Area. 
+For Deleting Area we need to use ![Delete Tab](/img/web/delete1_tab.jpg) as explained above under Actions Area.

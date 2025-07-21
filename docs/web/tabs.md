@@ -5,9 +5,7 @@ title: Tabs
 
 ### Tabs
 
-<div class="promo">
-    <img class="bordered" src="/img/tabs.jpg" alt="sample3"/>
-</div>
+<!-- ![Tabs Configuration](/img/web/tabs.jpg) -->
 
 From here you can manage what tabs are visible in the app and their order. You can drag and drop to change the order of the tabs. You can also change the icon, name and image of the tabs.
 

@@ -5,6 +5,4 @@ title: System Flow
 
 ### System Flow
 
-<div class="promo">
-    <img class="bordered" src="/img/system_flow.jpg" alt="sample3"/>
-</div> 
+<!-- ![System Flow Diagram](/img/web/system_flow.jpg) -->

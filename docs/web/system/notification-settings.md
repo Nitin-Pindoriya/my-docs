@@ -5,9 +5,7 @@ title: Notification Settings
 
 ### Notification Settings
 
-<div class="promo">
-    <img class="bordered" src="/img/notification_setting.jpg" alt="sample3"/>
-</div>
+![Notification Settings](/img/web/notification_setting.jpg)
 
 From Here The Notification Settings can be Updated as per requirements
 
