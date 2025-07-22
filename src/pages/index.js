@@ -35,7 +35,7 @@ export default function Home() {
                 • Basic customization options
               </p>
               <div className="feature__links">
-                <Link to="/docs/flutter#required-software">View Setup Guide →</Link>
+                <Link to="/docs/intro">View Setup Guide →</Link>
               </div>
             </div>
             <div className="feature">
@@ -48,23 +48,19 @@ export default function Home() {
                 • Update app fonts
               </p>
               <div className="feature__links">
-                <Link to="/docs/flutter#how-to-change-appname">View Customization Guide →</Link>
+                <Link to="/docs/flutter/flutter-intro">View Customization Guide →</Link>
               </div>
             </div>
             <div className="feature">
-              <h2 className="feature__title">Firebase Integration</h2>
+              <h2 className="feature__title">Admin panel Setup</h2>
               <p className="feature__description">
-                Set up Firebase features:
-                • Authentication (Phone, Google, Apple)
-                • Cloud Messaging
-                • Analytics
-                • Billing integration
+                Easy To Configure, Setup And installation. Use Our System With Admin Panel.
               </p>
               <div className="feature__links">
-                <Link to="/docs/flutter#how-to-create-firebase-project">View Firebase Setup →</Link>
+                <Link to="/docs/web/overview">View Admin panel Setup →</Link>
               </div>
             </div>
-            <div className="feature">
+            {/*  <div className="feature">
               <h2 className="feature__title">Payment & Delivery</h2>
               <p className="feature__description">
                 Configure payment and delivery options:
@@ -76,31 +72,23 @@ export default function Home() {
               <div className="feature__links">
                 <Link to="/docs/flutter#how-to-manage-payment-gateway-and-add-credential-in-admin-panel">View Payment Guide →</Link>
               </div>
-            </div>
+            </div> */}
             <div className="feature">
-              <h2 className="feature__title">App Deployment</h2>
+              <h2 className="feature__title">Change log</h2>
               <p className="feature__description">
-                Complete deployment guides:
-                • App Store deployment
-                • Play Store deployment
-                • App signing
-                • Release management
+                This section documents all the important changes, updates, and improvements made to the eShop Single Vendor platform.
               </p>
               <div className="feature__links">
-                <Link to="/docs/flutter#how-to-generate-release-apks">View Deployment Guide →</Link>
+                <Link to="/docs/changelog">View Change log →</Link>
               </div>
             </div>
             <div className="feature">
-              <h2 className="feature__title">Advanced Features</h2>
+              <h2 className="feature__title">Need Help?</h2>
               <p className="feature__description">
-                Implement advanced functionality:
-                • Deep linking setup``
-                • Map integration
-                • Multi-language support
-                • Dark theme configuration
+                If you need any help, please contact our support team.
               </p>
               <div className="feature__links">
-                <Link to="/docs/flutter#how-to-create-deep-link-for-share-item">View Advanced Features →</Link>
+                <Link to="/docs/support">View Support →</Link>
               </div>
             </div>
           </section>

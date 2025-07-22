@@ -2,9 +2,9 @@
 title: How to generate release apks
 ---
 
-How to generate release apks
+## How to generate release apks
 
-1. Create an upload keystore  
+### 1. Create an upload keystore  
    Running the following at the command line:
    - On Mac/Linux, use the following command: 
      ```
@@ -19,12 +19,12 @@ How to generate release apks
 ![eShop](/img/flutter/remeberPassword.png)
 ![eShop](/img/flutter/success.png)
 
-2. Reference the keystore from the app  
+### 2. Reference the keystore from the app  
    Create a file named [project]/android/key.properties that contains a reference to your keystore:
 
 ![eShop](/img/flutter/createfile.png)
 
-3. Copy below code, Paste in to key.propertirs file and change as per shown in image.
+### 3. Copy below code, Paste in to key.propertirs file and change as per shown in image.
    ```
    storePassword=<password from previous step>
    keyPassword=<password from previous step>
@@ -34,7 +34,7 @@ How to generate release apks
 
 ![eShop](/img/flutter/setPath.png)
 
-4. Configure signing in gradle  
+### 4. Configure signing in gradle  
    Configure gradle to use your upload key when building your app in release mode by editing the [project]/android/app/build.gradle file.
    - Add the below keystore information from your properties file before the android block:
      ```
@@ -66,7 +66,7 @@ How to generate release apks
 
 ![eShop](/img/flutter/codeBlock2.png)
 
-5. Run following commands in Terminal as per your need:
+### 5. Run following commands in Terminal as per your need:
    - To generate an APK: `flutter build apk`
    - To generate an App Bundle: `flutter build appbundle`
 

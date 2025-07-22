@@ -32,12 +32,10 @@ eShop is a comprehensive e-commerce solution that includes:
 
 ## Next Steps
 
-- [Web Platform Documentation](/docs/web)
+- [Web Platform Documentation](/docs/web/overview.md)
 - [Flutter App Documentation](/docs/flutter/flutter-intro.md)
 
 ## Support
 
 If you need help or have questions, please:
-1. Check the documentation
-2. Visit our support forum
-3. Contact our support team 
+- Contact our [support team](/docs/support/index.md)

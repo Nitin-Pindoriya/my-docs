@@ -1,8 +1,8 @@
 ---
-title: Changelog
+title: ChangeLog
 ---
 
-# Changelog
+# ChangeLog
 Welcome to the eShop Single Vendor ChangeLog! This section documents all the important changes, updates, and improvements made to the eShop Single Vendor platform.
 
 
@@ -17,7 +17,6 @@ Welcome to the eShop Single Vendor ChangeLog! This section documents all the imp
 ( updated on 17 Jul 2025 )
 
 + [Added] Support for digital product checkout and download
-+ [Added] MANAGE_EXTERNAL_STORAGE permission for Android
 + [Added] New NoInternetWidget in Customer Support
 + [Improved] Wallet system and backend transaction order handling
 + [Improved] UI improvements
