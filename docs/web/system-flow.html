@@ -3,11 +3,287 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
-<title data-rh="true">System Flow | eShop</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="System Flow | eShop"><meta data-rh="true" name="description" content="System Flow"><meta data-rh="true" property="og:description" content="System Flow"><link data-rh="true" rel="icon" href="/my-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow"><link data-rh="true" rel="alternate" href="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow" hreflang="en"><link data-rh="true" rel="alternate" href="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow" hreflang="x-default"><link rel="stylesheet" href="/my-docs/assets/css/styles.5e3802a3.css">
-<script src="/my-docs/assets/js/runtime~main.37547e97.js" defer="defer"></script>
+<title data-rh="true">System Flow | eShop</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="System Flow | eShop"><meta data-rh="true" name="description" content="This document outlines the complete system flow of the eShop platform, covering both web admin panel and mobile application workflows."><meta data-rh="true" property="og:description" content="This document outlines the complete system flow of the eShop platform, covering both web admin panel and mobile application workflows."><link data-rh="true" rel="icon" href="/my-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow"><link data-rh="true" rel="alternate" href="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow" hreflang="en"><link data-rh="true" rel="alternate" href="https://Nitin-Pindoriya.github.io/my-docs/docs/web/system-flow" hreflang="x-default"><link rel="stylesheet" href="/my-docs/assets/css/styles.5e3802a3.css">
+<script src="/my-docs/assets/js/runtime~main.5934a795.js" defer="defer"></script>
 <script src="/my-docs/assets/js/main.f33cf9f3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/my-docs/img/eshop-logo.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/my-docs/"><div class="navbar__logo"><img src="/my-docs/img/eshop-logo.png" alt="eShop Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/my-docs/img/eshop-logo.png" alt="eShop Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">eShop Single Vendor</b></a><a class="navbar__item navbar__link" href="/my-docs/docs/intro">Documentation</a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-docs/docs/intro">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/my-docs/docs/web/overview">Web Platform</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/overview">Overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/installation">Installation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/home">Home</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/categories">Categories</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/products">Products</a><button aria-label="Expand sidebar category &#x27;Products&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/orders">Orders</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/support">Support Ticket Management</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/tabs">Tabs</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/media-management">Media Management</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/home-slider-images">Home Slider Images</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/new-offers-images">New Offers Images</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/promo-code">Promo Code</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/faq">FAQ</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/featured-sections">Featured Sections</a><button aria-label="Expand sidebar category &#x27;Featured Sections&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/customer">Customer</a><button aria-label="Expand sidebar category &#x27;Customer&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/auto-update">Auto Update</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/client-api-keys-config">Client API Keys Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/send-notification">Send Notification</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/system">System</a><button aria-label="Expand sidebar category &#x27;System&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/my-docs/docs/web/system-flow">System Flow</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/location">Location</a><button aria-label="Expand sidebar category &#x27;Location&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/reports">Reports</a><button aria-label="Expand sidebar category &#x27;Reports&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/web-version-firebase-config">Web Version Firebase Configuration</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/my-docs/docs/flutter/flutter-intro">Flutter App Documentation</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-docs/docs/changelog">Changelog</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-docs/docs/support">Need Help?</a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/my-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Web Platform</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">System Flow</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>System Flow</h1></header><h3 class="anchor anchorWithStickyNavbar_LWe7" id="system-flow">System Flow<a href="#system-flow" class="hash-link" aria-label="Direct link to System Flow" title="Direct link to System Flow">​</a></h3></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/my-docs/docs/web/system/time-slots"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Time Slots</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/my-docs/docs/category/location"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Location</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#system-flow" class="table-of-contents__link toc-highlight">System Flow</a></li></ul></div></div></div></div></main></div></div></div></div>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/my-docs/img/eshop-logo.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/my-docs/"><div class="navbar__logo"><img src="/my-docs/img/eshop-logo.png" alt="eShop Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/my-docs/img/eshop-logo.png" alt="eShop Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">eShop Single Vendor</b></a><a class="navbar__item navbar__link" href="/my-docs/docs/intro">Documentation</a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-docs/docs/intro">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/my-docs/docs/web/overview">Web Platform</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/overview">Overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/installation">Installation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/home">Home</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/categories">Categories</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/products">Products</a><button aria-label="Expand sidebar category &#x27;Products&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/orders">Orders</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/support">Support Ticket Management</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/tabs">Tabs</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/media-management">Media Management</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/home-slider-images">Home Slider Images</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/new-offers-images">New Offers Images</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/promo-code">Promo Code</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/faq">FAQ</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/featured-sections">Featured Sections</a><button aria-label="Expand sidebar category &#x27;Featured Sections&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/customer">Customer</a><button aria-label="Expand sidebar category &#x27;Customer&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/auto-update">Auto Update</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/client-api-keys-config">Client API Keys Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/send-notification">Send Notification</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/system">System</a><button aria-label="Expand sidebar category &#x27;System&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/location">Location</a><button aria-label="Expand sidebar category &#x27;Location&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/my-docs/docs/category/reports">Reports</a><button aria-label="Expand sidebar category &#x27;Reports&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/my-docs/docs/web/web-version-firebase-config">Web Version Firebase Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/my-docs/docs/web/system-flow">System Flow</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/my-docs/docs/flutter/flutter-intro">Flutter App Documentation</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-docs/docs/changelog">Changelog</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/my-docs/docs/support">Need Help?</a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/my-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Web Platform</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">System Flow</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>System Flow</h1></header>
+<p>This document outlines the complete system flow of the eShop platform, covering both web admin panel and mobile application workflows.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<p>The eShop system consists of multiple interconnected components:</p>
+<ul>
+<li><strong>Admin Web Panel</strong> - For system administration and management</li>
+<li><strong>Customer Mobile App</strong> - For end-user shopping experience</li>
+<li><strong>Delivery Boy App</strong> - For order delivery management</li>
+<li><strong>Backend APIs</strong> - For data processing and business logic</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-user-registration--authentication-flow">1. User Registration &amp; Authentication Flow<a href="#1-user-registration--authentication-flow" class="hash-link" aria-label="Direct link to 1. User Registration &amp; Authentication Flow" title="Direct link to 1. User Registration &amp; Authentication Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="customer-registration">Customer Registration<a href="#customer-registration" class="hash-link" aria-label="Direct link to Customer Registration" title="Direct link to Customer Registration">​</a></h3>
+<ol>
+<li>User downloads the mobile app</li>
+<li>User enters mobile number and basic details</li>
+<li>OTP verification sent to mobile number</li>
+<li>User enters OTP for verification</li>
+<li>Account created and welcome wallet balance added (if configured)</li>
+<li>User can optionally set up profile with additional details</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="social-login-flow">Social Login Flow<a href="#social-login-flow" class="hash-link" aria-label="Direct link to Social Login Flow" title="Direct link to Social Login Flow">​</a></h3>
+<ol>
+<li>User selects Google/Apple login option</li>
+<li>Social authentication via respective providers</li>
+<li>User account created/linked automatically</li>
+<li>Profile information populated from social provider</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-product-management-flow">2. Product Management Flow<a href="#2-product-management-flow" class="hash-link" aria-label="Direct link to 2. Product Management Flow" title="Direct link to 2. Product Management Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="admin-product-management">Admin Product Management<a href="#admin-product-management" class="hash-link" aria-label="Direct link to Admin Product Management" title="Direct link to Admin Product Management">​</a></h3>
+<ol>
+<li>Admin logs into web panel</li>
+<li>Navigate to Products → Manage Products</li>
+<li>Add new product with details:<!-- -->
+<ul>
+<li>Product name, description, images</li>
+<li>Category, tax information</li>
+<li>Pricing, variants, attributes</li>
+<li>Stock quantity, SKU</li>
+<li>Shipping details</li>
+</ul>
+</li>
+<li>Product published and available for customers</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="product-discovery-customer">Product Discovery (Customer)<a href="#product-discovery-customer" class="hash-link" aria-label="Direct link to Product Discovery (Customer)" title="Direct link to Product Discovery (Customer)">​</a></h3>
+<ol>
+<li>Customer opens mobile app</li>
+<li>Browse categories or use search functionality</li>
+<li>Filter products by price, brand, attributes</li>
+<li>View product details, images, reviews</li>
+<li>Check product availability and delivery options</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-order-management-flow">3. Order Management Flow<a href="#3-order-management-flow" class="hash-link" aria-label="Direct link to 3. Order Management Flow" title="Direct link to 3. Order Management Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="customer-order-process">Customer Order Process<a href="#customer-order-process" class="hash-link" aria-label="Direct link to Customer Order Process" title="Direct link to Customer Order Process">​</a></h3>
+<ol>
+<li>
+<p><strong>Product Selection</strong></p>
+<ul>
+<li>Add products to cart</li>
+<li>Select product variants (size, color, etc.)</li>
+<li>Apply promo codes if available</li>
+</ul>
+</li>
+<li>
+<p><strong>Checkout Process</strong></p>
+<ul>
+<li>Review cart items and quantities</li>
+<li>Select delivery address or add new address</li>
+<li>Choose delivery time slot</li>
+<li>Select payment method (COD, Online, Wallet)</li>
+<li>Add special notes/prescriptions if needed</li>
+</ul>
+</li>
+<li>
+<p><strong>Order Placement</strong></p>
+<ul>
+<li>Order confirmation with order ID</li>
+<li>Payment processing (if online payment)</li>
+<li>Order notification sent to admin</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="admin-order-management">Admin Order Management<a href="#admin-order-management" class="hash-link" aria-label="Direct link to Admin Order Management" title="Direct link to Admin Order Management">​</a></h3>
+<ol>
+<li>
+<p><strong>Order Reception</strong></p>
+<ul>
+<li>New order notification received</li>
+<li>Order appears in admin panel</li>
+<li>Order details reviewed and validated</li>
+</ul>
+</li>
+<li>
+<p><strong>Order Processing</strong></p>
+<ul>
+<li>Update order status (Processing, Packed, Shipped)</li>
+<li>Assign delivery boy (for local shipping)</li>
+<li>Generate shipping labels (for courier shipping)</li>
+<li>Send order tracking information to customer</li>
+</ul>
+</li>
+<li>
+<p><strong>Shipping Methods</strong></p>
+<ul>
+<li><strong>Local Shipping</strong>: Assign delivery boy from system</li>
+<li><strong>Standard Shipping</strong>: Use Shiprocket integration<!-- -->
+<ul>
+<li>Create shiprocket order</li>
+<li>Generate AWB (Air Way Bill)</li>
+<li>Schedule pickup request</li>
+<li>Generate and download labels/invoices</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-delivery-management-flow">4. Delivery Management Flow<a href="#4-delivery-management-flow" class="hash-link" aria-label="Direct link to 4. Delivery Management Flow" title="Direct link to 4. Delivery Management Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="local-delivery-delivery-boy">Local Delivery (Delivery Boy)<a href="#local-delivery-delivery-boy" class="hash-link" aria-label="Direct link to Local Delivery (Delivery Boy)" title="Direct link to Local Delivery (Delivery Boy)">​</a></h3>
+<ol>
+<li>Delivery boy receives order notification</li>
+<li>Navigate to pickup location</li>
+<li>Collect order from admin/seller</li>
+<li>Update order status to &quot;Out for Delivery&quot;</li>
+<li>Navigate to customer address</li>
+<li>Deliver order and collect payment (if COD)</li>
+<li>Update order status to &quot;Delivered&quot;</li>
+<li>Upload delivery proof if required</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="standard-shipping-courier">Standard Shipping (Courier)<a href="#standard-shipping-courier" class="hash-link" aria-label="Direct link to Standard Shipping (Courier)" title="Direct link to Standard Shipping (Courier)">​</a></h3>
+<ol>
+<li>Courier partner picks up from registered address</li>
+<li>Order tracking updates automatically</li>
+<li>Customer receives tracking information</li>
+<li>Order delivered by courier partner</li>
+<li>Delivery confirmation updated in system</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-payment-processing-flow">5. Payment Processing Flow<a href="#5-payment-processing-flow" class="hash-link" aria-label="Direct link to 5. Payment Processing Flow" title="Direct link to 5. Payment Processing Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="payment-gateway-integration">Payment Gateway Integration<a href="#payment-gateway-integration" class="hash-link" aria-label="Direct link to Payment Gateway Integration" title="Direct link to Payment Gateway Integration">​</a></h3>
+<ol>
+<li>
+<p><strong>Online Payments</strong></p>
+<ul>
+<li>Razorpay, PayU, Paystack, Flutterwave</li>
+<li>Secure payment processing</li>
+<li>Success/failure handling</li>
+<li>Automatic order status update</li>
+</ul>
+</li>
+<li>
+<p><strong>Wallet Payments</strong></p>
+<ul>
+<li>Deduct amount from customer wallet</li>
+<li>Transaction record created</li>
+<li>Wallet balance updated</li>
+</ul>
+</li>
+<li>
+<p><strong>Cash on Delivery</strong></p>
+<ul>
+<li>Order placed without payment</li>
+<li>Payment collected by delivery boy</li>
+<li>Cash reconciliation in admin panel</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-inventory-management-flow">6. Inventory Management Flow<a href="#6-inventory-management-flow" class="hash-link" aria-label="Direct link to 6. Inventory Management Flow" title="Direct link to 6. Inventory Management Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stock-management">Stock Management<a href="#stock-management" class="hash-link" aria-label="Direct link to Stock Management" title="Direct link to Stock Management">​</a></h3>
+<ol>
+<li>Admin sets initial stock quantities</li>
+<li>Stock reduced automatically on order placement</li>
+<li>Out-of-stock notifications when quantity reaches zero</li>
+<li>Bulk stock updates available</li>
+<li>Stock reports and analytics</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="product-variants">Product Variants<a href="#product-variants" class="hash-link" aria-label="Direct link to Product Variants" title="Direct link to Product Variants">​</a></h3>
+<ol>
+<li>Create product with multiple variants (size, color)</li>
+<li>Each variant has individual stock count</li>
+<li>Variant-specific pricing and images</li>
+<li>Stock management per variant</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-customer-support-flow">7. Customer Support Flow<a href="#7-customer-support-flow" class="hash-link" aria-label="Direct link to 7. Customer Support Flow" title="Direct link to 7. Customer Support Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="support-ticket-system">Support Ticket System<a href="#support-ticket-system" class="hash-link" aria-label="Direct link to Support Ticket System" title="Direct link to Support Ticket System">​</a></h3>
+<ol>
+<li>Customer creates support ticket</li>
+<li>Ticket categorized by type</li>
+<li>Admin responds to ticket</li>
+<li>Ticket status tracking (Open, Pending, Resolved, Closed)</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="return--refund-process">Return &amp; Refund Process<a href="#return--refund-process" class="hash-link" aria-label="Direct link to Return &amp; Refund Process" title="Direct link to Return &amp; Refund Process">​</a></h3>
+<ol>
+<li>Customer initiates return request</li>
+<li>Return reason and images provided</li>
+<li>Admin reviews return request</li>
+<li>Approval/rejection decision</li>
+<li>Pickup scheduled (if approved)</li>
+<li>Refund processed to wallet/original payment method</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8-notification-system-flow">8. Notification System Flow<a href="#8-notification-system-flow" class="hash-link" aria-label="Direct link to 8. Notification System Flow" title="Direct link to 8. Notification System Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="push-notifications">Push Notifications<a href="#push-notifications" class="hash-link" aria-label="Direct link to Push Notifications" title="Direct link to Push Notifications">​</a></h3>
+<ol>
+<li>Firebase Cloud Messaging integration</li>
+<li>Automatic notifications for:<!-- -->
+<ul>
+<li>Order status updates</li>
+<li>Promotional offers</li>
+<li>New product arrivals</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="email-notifications">Email Notifications<a href="#email-notifications" class="hash-link" aria-label="Direct link to Email Notifications" title="Direct link to Email Notifications">​</a></h3>
+<ol>
+<li>SMTP configuration in admin panel</li>
+<li>Automated emails for:<!-- -->
+<ul>
+<li>Order confirmations</li>
+<li>Shipping updates</li>
+<li>Account registration</li>
+<li>Password reset</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-analytics--reporting-flow">9. Analytics &amp; Reporting Flow<a href="#9-analytics--reporting-flow" class="hash-link" aria-label="Direct link to 9. Analytics &amp; Reporting Flow" title="Direct link to 9. Analytics &amp; Reporting Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sales-reports">Sales Reports<a href="#sales-reports" class="hash-link" aria-label="Direct link to Sales Reports" title="Direct link to Sales Reports">​</a></h3>
+<ol>
+<li>Daily, weekly, monthly sales data</li>
+<li>Product-wise sales analytics</li>
+<li>Category performance reports</li>
+<li>Payment method analysis</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="inventory-reports">Inventory Reports<a href="#inventory-reports" class="hash-link" aria-label="Direct link to Inventory Reports" title="Direct link to Inventory Reports">​</a></h3>
+<ol>
+<li>Stock level monitoring</li>
+<li>Low stock alerts</li>
+<li>Best/worst performing products</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10-system-administration-flow">10. System Administration Flow<a href="#10-system-administration-flow" class="hash-link" aria-label="Direct link to 10. System Administration Flow" title="Direct link to 10. System Administration Flow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="settings-management">Settings Management<a href="#settings-management" class="hash-link" aria-label="Direct link to Settings Management" title="Direct link to Settings Management">​</a></h3>
+<ol>
+<li><strong>Store Settings</strong> - App name, logo, currency, timezone</li>
+<li><strong>Payment Methods</strong> - Configure payment gateways</li>
+<li><strong>Shipping Methods</strong> - Local delivery and courier setup</li>
+<li><strong>Email Settings</strong> - SMTP configuration</li>
+<li><strong>Notification Settings</strong> - Firebase configuration</li>
+<li><strong>Time Slots</strong> - Delivery time preferences</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="user-management">User Management<a href="#user-management" class="hash-link" aria-label="Direct link to User Management" title="Direct link to User Management">​</a></h3>
+<ol>
+<li>Customer account management</li>
+<li>Delivery boy registration and management</li>
+<li>Admin user roles and permissions</li>
+<li>Bulk operations for user management</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="security-measures">Security Measures<a href="#security-measures" class="hash-link" aria-label="Direct link to Security Measures" title="Direct link to Security Measures">​</a></h2>
+<ol>
+<li><strong>Authentication</strong>: JWT token-based authentication</li>
+<li><strong>Data Encryption</strong>: Secure API communication</li>
+<li><strong>Payment Security</strong>: PCI DSS compliant payment processing</li>
+<li><strong>Access Control</strong>: Role-based permissions</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="integration-points">Integration Points<a href="#integration-points" class="hash-link" aria-label="Direct link to Integration Points" title="Direct link to Integration Points">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="third-party-services">Third-Party Services<a href="#third-party-services" class="hash-link" aria-label="Direct link to Third-Party Services" title="Direct link to Third-Party Services">​</a></h3>
+<ul>
+<li><strong>Firebase</strong> - Authentication, notifications, analytics</li>
+<li><strong>Payment Gateways</strong> - Multiple payment processors</li>
+<li><strong>Shiprocket</strong> - Shipping and logistics</li>
+<li><strong>Google Maps</strong> - Address and location services</li>
+<li><strong>SMS Gateway</strong> - OTP and notifications</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="api-structure">API Structure<a href="#api-structure" class="hash-link" aria-label="Direct link to API Structure" title="Direct link to API Structure">​</a></h3>
+<ul>
+<li>RESTful API architecture</li>
+<li>JSON data format</li>
+<li>Rate limiting and throttling</li>
+<li>API versioning support</li>
+<li>Comprehensive error handling</li>
+</ul>
+<p>This system flow ensures a seamless experience across all user types while maintaining data integrity and system security throughout the entire e-commerce process.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/my-docs/docs/web/web-version-firebase-config"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Web Version Firebase Configuration</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/my-docs/docs/flutter/flutter-intro"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">eShop - Flutter E-commerce Full App</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#1-user-registration--authentication-flow" class="table-of-contents__link toc-highlight">1. User Registration &amp; Authentication Flow</a><ul><li><a href="#customer-registration" class="table-of-contents__link toc-highlight">Customer Registration</a></li><li><a href="#social-login-flow" class="table-of-contents__link toc-highlight">Social Login Flow</a></li></ul></li><li><a href="#2-product-management-flow" class="table-of-contents__link toc-highlight">2. Product Management Flow</a><ul><li><a href="#admin-product-management" class="table-of-contents__link toc-highlight">Admin Product Management</a></li><li><a href="#product-discovery-customer" class="table-of-contents__link toc-highlight">Product Discovery (Customer)</a></li></ul></li><li><a href="#3-order-management-flow" class="table-of-contents__link toc-highlight">3. Order Management Flow</a><ul><li><a href="#customer-order-process" class="table-of-contents__link toc-highlight">Customer Order Process</a></li><li><a href="#admin-order-management" class="table-of-contents__link toc-highlight">Admin Order Management</a></li></ul></li><li><a href="#4-delivery-management-flow" class="table-of-contents__link toc-highlight">4. Delivery Management Flow</a><ul><li><a href="#local-delivery-delivery-boy" class="table-of-contents__link toc-highlight">Local Delivery (Delivery Boy)</a></li><li><a href="#standard-shipping-courier" class="table-of-contents__link toc-highlight">Standard Shipping (Courier)</a></li></ul></li><li><a href="#5-payment-processing-flow" class="table-of-contents__link toc-highlight">5. Payment Processing Flow</a><ul><li><a href="#payment-gateway-integration" class="table-of-contents__link toc-highlight">Payment Gateway Integration</a></li></ul></li><li><a href="#6-inventory-management-flow" class="table-of-contents__link toc-highlight">6. Inventory Management Flow</a><ul><li><a href="#stock-management" class="table-of-contents__link toc-highlight">Stock Management</a></li><li><a href="#product-variants" class="table-of-contents__link toc-highlight">Product Variants</a></li></ul></li><li><a href="#7-customer-support-flow" class="table-of-contents__link toc-highlight">7. Customer Support Flow</a><ul><li><a href="#support-ticket-system" class="table-of-contents__link toc-highlight">Support Ticket System</a></li><li><a href="#return--refund-process" class="table-of-contents__link toc-highlight">Return &amp; Refund Process</a></li></ul></li><li><a href="#8-notification-system-flow" class="table-of-contents__link toc-highlight">8. Notification System Flow</a><ul><li><a href="#push-notifications" class="table-of-contents__link toc-highlight">Push Notifications</a></li><li><a href="#email-notifications" class="table-of-contents__link toc-highlight">Email Notifications</a></li></ul></li><li><a href="#9-analytics--reporting-flow" class="table-of-contents__link toc-highlight">9. Analytics &amp; Reporting Flow</a><ul><li><a href="#sales-reports" class="table-of-contents__link toc-highlight">Sales Reports</a></li><li><a href="#inventory-reports" class="table-of-contents__link toc-highlight">Inventory Reports</a></li></ul></li><li><a href="#10-system-administration-flow" class="table-of-contents__link toc-highlight">10. System Administration Flow</a><ul><li><a href="#settings-management" class="table-of-contents__link toc-highlight">Settings Management</a></li><li><a href="#user-management" class="table-of-contents__link toc-highlight">User Management</a></li></ul></li><li><a href="#security-measures" class="table-of-contents__link toc-highlight">Security Measures</a></li><li><a href="#integration-points" class="table-of-contents__link toc-highlight">Integration Points</a><ul><li><a href="#third-party-services" class="table-of-contents__link toc-highlight">Third-Party Services</a></li><li><a href="#api-structure" class="table-of-contents__link toc-highlight">API Structure</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>
